@@ -26,7 +26,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
-    // User is signed in. hhjhjh jfhfghf hgfhgf
+    // User is signed in. branch run
     store.dispatch('detectarUsuario',{email: user.email, uid: user.uid})
     // ...
   } else {
